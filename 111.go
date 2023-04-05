@@ -28,7 +28,7 @@ func main() {
 			log.Fatal(nil)
 		}
 		cockies := resp.Cookies()
-		fmt.Printf("cockies: %v\n", cockies)
+		fmt.Printf("cockies1: %v\n", cockies)
 		var coincapApiStruct coincap.AssetsResponse
 		if err := json.Unmarshal(data1, &coincapApiStruct); err != nil {
 			log.Fatal(nil)
